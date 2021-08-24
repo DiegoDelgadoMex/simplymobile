@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 void main() async {
-  var vmlisturl = Uri.parse('https://svtproxy.cecmx.com/vmlist.php');
-  var backuplisturl = Uri.parse('https://svtproxy.cecmx.com/backuplist.php');
-  var backupurl = Uri.parse('https://svtproxy.cecmx.com/dobackup.php');
-  var replicaurl = Uri.parse('https://svtproxy.cecmx.com/doreplica.php');
-  var recoverlocalurl = Uri.parse('https://svtproxy.cecmx.com/recoverlocal.php');
-  var recoverdrpurl = Uri.parse('https://svtproxy.cecmx.com/recoverdrp.php');
+  var vmlisturl = Uri.parse('https://<yourdomain>/vmlist.php');
+  var backuplisturl = Uri.parse('https://<yourdomain>/backuplist.php');
+  var backupurl = Uri.parse('https://<yourdomain>/dobackup.php');
+  var replicaurl = Uri.parse('https://<yourdomain>/doreplica.php');
+  var recoverlocalurl = Uri.parse('https://<yourdomain>/recoverlocal.php');
+  var recoverdrpurl = Uri.parse('https://<yourdomain>/recoverdrp.php');
 
   runApp(MaterialApp(
     home:Scaffold(
